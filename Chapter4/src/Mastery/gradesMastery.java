@@ -9,7 +9,7 @@ public class gradesMastery {
             System.out.print("Enter your percentage: "); 
             int grade = scanner.nextInt(); 
             
-            if (grade >= 90 && grade <= 100) {
+            if (grade >= 90 && (int) grade <= 100) {
                 System.out.println("Your grade is an A"); 
             } else if (grade >= 80) {
                 System.out.println("Your grade is a B"); 
@@ -21,6 +21,6 @@ public class gradesMastery {
                 System.out.println("Your grade is an F"); 
             }
  
-	    }
-	}
-}
+	     }
+	 }
+ }
